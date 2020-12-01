@@ -26,6 +26,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
         card.classList.add('is-selected');
 
+        selectedCards.push(card);
+
       }
 
       // If we have selected two cards, see if they match.
