@@ -69,8 +69,11 @@ window.addEventListener('DOMContentLoaded', function () {
 
         console.log('Testing matchedCards length & total cards length : ', matchedCards.length, cards.length);
 
-        alert('You matched all the cards, nice job!');
+        setTimeout(() => {
+          alert('You matched all the cards, nice job!');
+        }, 500);
       }
+
     });
   });
 });
