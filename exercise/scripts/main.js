@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', function () {
         console.log('Two cards have been selected.');
 
         var card1 = selectedCards[0];
-        var card2 = selectedCards[0];
+        var card2 = selectedCards[1];
 
         console.log('Checking the cards selected : ', card1, card2);
 
